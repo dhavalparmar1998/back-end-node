@@ -12,4 +12,4 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.use("/crud", crudRoute);
-app.listen(process.env.port);
+app.listen(process.env.PORT);
